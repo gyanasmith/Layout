@@ -1,0 +1,54 @@
+body{
+    background-color: #04243d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header, main, footer{
+    background-color: #fbf3f3;
+    padding: 10rem;
+    border-radius: 1rem 5rem;
+    box-shadow: #ffffff 0px 5px 8px;
+    text-align: center;
+}
+
+header img{
+    width: 100px;
+    float: left;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    transform: scale(1.5) rotate(-30deg) translate(-20px, -20px);
+    filter: blur(1px) brightness(1) contrast(1) grayscale(50%);
+}
+
+header h1 {
+    text-align: center;
+    color: #1d1471;
+    text-shadow: 2px 2px 5px #8d89ee;
+}
+
+section {
+    padding: 2rem;
+    border: 2px solid black;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    
+  }
+
+
+footer{
+    font-style: italic;
+    text-align: center;
+    background-image: radial-gradient(circle, #dfbdde, #d794c3);
+}
